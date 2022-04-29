@@ -1,5 +1,8 @@
 <template>
 	<view class="content">
+		<view class="">
+			test
+		</view>
 		<uni-list>
 			<uni-list-item v-for="(item,index) in news" :title="item.title" :note="item.created_at" name="" :thumb="item.author_avatar"
 			:clickable="true" @click="openInfo(item.post_id)">

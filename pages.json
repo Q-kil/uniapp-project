@@ -5,9 +5,16 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
-		}
-	    ,{
+		},{
             "path" : "pages/info/info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/scroll/scroll",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
